@@ -1,4 +1,4 @@
-export default function FavoritesPanel({ favoritos, onQuitar }) {
+export default function FavoritePanel({ favoritos, onQuitar }) {
   return (
     <aside className="favoritos">
       <h3>Favoritos ({favoritos.length})</h3>
