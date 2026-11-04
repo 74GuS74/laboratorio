@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { usePersonajes } from "./hooks/usePersonajes";
 import PersonajeList from "./components/PersonajeList";
-import FavoritesPanel from "./components/FavoritePanel";  
+import FavoritePanel from "./components/FavoritePanel";  
 
 export default function MultiversoApp() {
   const { personajes, isLoading, error } = usePersonajes();
